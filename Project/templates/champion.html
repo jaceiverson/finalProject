@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+    column{
+        float: left;
+      width: auto;
+      padding: 10px;
+      height: 300px;
+    }
+    img{
+        width: 85px;
+        height: 85px;
+    }
+    .container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding:10px;
+}
+    .centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    table.center {
+        padding-left: 200px;
+  }
+    tm-site-title{
+        color:#999999
+    }
+
+</style>
+        <!-- row -->
+        <h2 style="color:white">List of Champions</h2>
+        <table class="center">
+            <div class="row">
+                {% for champ in champList %}
+                    <div class="column">
+                    <a href="/{{champ}}">
+                        <div class="container">
+                            <img src="./static/img/dragontail-9.22.1/img/champion/tiles/{{champ}}_0.jpg" style="border-radius: 25px;">
+                                <div class="centered">{{ champ }}
+                                </div>
+                        </div>
+                    </a>
+                    </div>
+                    {% if loop.index is divisibleby(11) %}
+                    </div><div class="row">
+                    {% endif %}
+                    {% if loop.last %}</div>{% endif %}
+                {% endfor %}
+            </div>
+        </table>
+{% endblock %}

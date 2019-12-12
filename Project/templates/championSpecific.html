@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+    h2{
+        color:black;
+        font-size:25px;
+        align:center;
+    }
+    .dot {
+  height: 60px;
+  width: 60px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  display: inline-block;
+}
+        .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+            .center {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+table.stats {
+    align: center;
+  table-layout: fixed ;
+  width: 100% ;
+
+}
+td.stats {
+  width: 25% ;
+}
+
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+    tm-site-title{
+        color:#999999
+    }
+</style>
+<table style="width:100%; color:white">
+  <tr>
+      <th style="color:white; text-align: left; font-size:35px;padding-right: 25px"><u>{{name}}</u><br>"{{nickname}}"</th>
+    <th style="color:white; text-align: left; font-size:35px; ">Spells</th>
+  </tr>
+  <tr>
+    <th rowspan="4" style="width:50%;padding-right: 25px">
+        <img src="../static/img/dragontail-9.22.1/img/champion/splash/{{name}}_0.jpg" style="width: 100%; border-radius: 25px; ">
+    </th>
+    {%for x in ['Q','W','E','R']%}
+      {%if loop.first%}
+      <td style="color:white; font-size:25px"><b style="color:darkslategrey;">{{x}}:</b> {{spells[x]}}</td>
+      {%endif%}
+      {%if loop.first == False%}
+      </tr>
+      <tr>
+          <td style="color:white; font-size:25px"><b style="color:darkslategrey; ">{{x}}:</b> {{spells[x]}}</td>
+      {%endif%}
+        {%endfor%}
+  </tr>
+
+</table>
+    <tr>
+        <p style="color:white; font-size:15px"><b style="color:darkslategrey; ">Background: </b>{{blurb}}</p>
+    </tr>
+    <table class="stats">
+        <!-- row -->
+        <tr>
+        <!-- new row -->
+        <tr>
+        <td colspan="5" style="width:100%;text-align: center; color:antiquewhite; font-size:25px">{{name}}'s Base Stats</td>
+            <tr>
+                {% for stat in stats %}
+                    <td>
+                        <div class="container">
+                            <span class="dot" style="padding-bottom: 50px">
+                            <!--I wanted to add something like this
+                            {# if stats[stat]{{>}}average#} style="color:green"{#endif#}
+                            but it wasn't liking it. I still need to work on that.-->
+                                <p class="center" style="color:navy"><b>{{stats[stat]}}</b></p>
+                            </span>
+                            <p style="color:white">{{ stat }}
+                        </p>
+                        </div>
+                    </td>
+                    {% if loop.index is divisibleby(5) %}
+                    </tr> <tr>
+                    {% endif %}
+                    {% if loop.last %}</tr>{% endif %}
+                {% endfor %}
+              </tr>
+    </table>
+
+
+{% endblock %}

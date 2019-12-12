@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<head>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://coredogs.com/resources/jquery.tablesorter-2.0.3.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#dog_toys").tablesorter(
+      { headers: {
+        2: {
+            sorter: false
+        }
+      }
+    } );
+  });
+</script>
+</head>
+
+{{"statsTable.html"}}
+
+{% endblock %}

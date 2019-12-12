@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+
+
+<table style="width:100%; color:white">
+  <tr>
+    <th style="color:white; text-align: center">{{name}}: {{nickname}}</th>
+    <td>Spells</td>
+  </tr>
+  <tr>
+    <th rowspan="4" style="width:50%;">
+        <img src="../static/img/dragontail-9.22.1/img/champion/splash/Aatrox_0.jpg" style="width: 100%; border-radius: 25px">
+    </th>
+    {%for x in ['Q','W','E','R']%}
+      {%if loop.first%}
+      <td style="color:white"><b style="color:darkslategrey">{{X}}:</b> {{stats[x]}}</td>
+      {%endif%}
+      {%if loop.first == False%}
+      </tr>
+      <tr>
+          <td style="color:white"><b style="color:darkslategrey">{{X}}:</b> {{stats[x]}}</td>
+      {%endif%}
+        {%endfor%}
+  </tr>
+</table>
+
+
+{% endblock %}

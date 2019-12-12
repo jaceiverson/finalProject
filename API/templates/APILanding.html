@@ -1,0 +1,17 @@
+<!doctype html>
+<title>Jace's Riot Games API</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1>League of Legends API Documentation</h1>
+  <p>Here you will find information on consuming my api.</p>
+    <br /> <br />
+    <h2>ADDING Champios (let riot do this first, but if you really wanted to)</h2>
+    <b>POST /api/v1/champion/{name}</b> - Add some new champions to our database
+    <br /> <br />
+    <h2>GETTING Champion Information</h2>
+    <b>GET /api/v1/champion</b> - Get all champion information<br />
+    <b>GET /api/v1/champion/&lt;id&gt;</b> - Get a specific champion from our database
+    <br /> <br />
+    <h2>DELETING Champions</h2>
+    <b>DELETE /api/v1/champion/&lt;id&gt;</b> - Remove a champion from our database
+</div>

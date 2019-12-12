@@ -1,0 +1,878 @@
+{
+    "Aatrox": {
+        "Q": "The Darkin Blade",
+        "W": "Infernal Chains",
+        "E": "Umbral Dash",
+        "R": "World Ender"
+    },
+    "Ahri": {
+        "Q": "Orb of Deception",
+        "W": "Fox-Fire",
+        "E": "Seduce/Charm",
+        "R": "Tumble/Spirit Rush"
+    },
+    "Akali": {
+        "Q": "Five Point Strike",
+        "W": "Twilight Shroud",
+        "E": "Shuriken Flip",
+        "R": "Perfect Execution"
+    },
+    "Alistar": {
+        "Q": "Pulverize",
+        "W": "Headbutt",
+        "E": "Trample",
+        "R": "Unbreakable Will"
+    },
+    "Amumu": {
+        "Q": "Bandage Toss",
+        "W": "Despair",
+        "E": "Tantrum",
+        "R": "Curse of the Sad Mummy"
+    },
+    "Anivia": {
+        "Q": "Flash Frost",
+        "W": "Crystallize",
+        "E": "Frostbite",
+        "R": "Glacial Storm"
+    },
+    "Annie": {
+        "Q": "Disintegrate",
+        "W": "Incinerate",
+        "E": "Molten Shield",
+        "R": "Summon: Tibbers"
+    },
+    "Ashe": {
+        "Q": "Ranger's Focus",
+        "W": "Volley",
+        "E": "SpiritOfTheHawk/Hawkshot",
+        "R": "Enchanted Crystal Arrow"
+    },
+    "AurelionSol": {
+        "Q": "Starsurge",
+        "W": "Celestial Expansion",
+        "E": "Comet of Legend",
+        "R": "Voice of Light"
+    },
+    "Azir": {
+        "Q": "Conquering Sands",
+        "W": "Arise!",
+        "E": "Shifting Sands",
+        "R": "Emperor's Divide"
+    },
+    "Bard": {
+        "Q": "Cosmic Binding",
+        "W": "Caretaker's Shrine",
+        "E": "Magical Journey",
+        "R": "Tempered Fate"
+    },
+    "Blitzcrank": {
+        "Q": "Rocket Grab",
+        "W": "Overdrive",
+        "E": "Power Fist",
+        "R": "Static Field"
+    },
+    "Brand": {
+        "Q": "Sear",
+        "W": "Pillar of Flame",
+        "E": "Conflagration",
+        "R": "Pyroclasm"
+    },
+    "Braum": {
+        "Q": "Winter's Bite",
+        "W": "Stand Behind Me",
+        "E": "Unbreakable",
+        "R": "Glacial Fissure"
+    },
+    "Caitlyn": {
+        "Q": "Piltover Peacemaker",
+        "W": "Yordle Snap Trap",
+        "E": "Entrapment/90 Caliber Net",
+        "R": "Ace in the Hole"
+    },
+    "Camille": {
+        "Q": "Precision Protocol",
+        "W": "Tactical Sweep",
+        "E": "Hookshot",
+        "R": "The Hextech Ultimatum"
+    },
+    "Cassiopeia": {
+        "Q": "Noxious Blast",
+        "W": "Miasma",
+        "E": "Twin Fang",
+        "R": "Petrifying Gaze"
+    },
+    "Chogath": {
+        "Q": "Rupture",
+        "W": "Feral Scream",
+        "E": "Vorpal Spikes",
+        "R": "Feast"
+    },
+    "Corki": {
+        "Q": "Phosphorus Bomb",
+        "W": "Valkyrie",
+        "E": "Gatling Gun",
+        "R": "Missile Barrage"
+    },
+    "Darius": {
+        "Q": "Cleave/Decimate",
+        "W": "NoxianTacticsONH/Crippling Strike",
+        "E": "AxeGrabCone/Apprehend",
+        "R": "Execute/Noxian Guillotine"
+    },
+    "Diana": {
+        "Q": "Crescent Strike",
+        "W": "Orbs/Pale Cascade",
+        "E": "Vortex/Moonfall",
+        "R": "Teleport/Lunar Rush"
+    },
+    "Draven": {
+        "Q": "Spinning Axe",
+        "W": "Fury/Blood Rush",
+        "E": "DoubleShot/Stand Aside",
+        "R": "Whirling Death"
+    },
+    "DrMundo": {
+        "Q": "Infected Cleaver",
+        "W": "Burning Agony",
+        "E": "Masochism",
+        "R": "Sadism"
+    },
+    "Ekko": {
+        "Q": "Timewinder",
+        "W": "Parallel Convergence",
+        "E": "Phase Dive",
+        "R": "Chronobreak"
+    },
+    "Elise": {
+        "Q": "Neurotoxin / Venomous Bite",
+        "W": "Volatile Spiderling / Skittering Frenzy",
+        "E": "Cocoon / Rappel",
+        "R": "Spider Form"
+    },
+    "Evelynn": {
+        "Q": "Hate Spike",
+        "W": "Allure",
+        "E": "Whiplash",
+        "R": "Last Caress"
+    },
+    "Ezreal": {
+        "Q": "Mystic Shot",
+        "W": "Essence Flux",
+        "E": "Arcane Shift",
+        "R": "Trueshot Barrage"
+    },
+    "Fiddlesticks": {
+        "Q": "Terrify",
+        "W": "Drain",
+        "E": "Dark Wind",
+        "R": "Crowstorm"
+    },
+    "Fiora": {
+        "Q": "Lunge",
+        "W": "Riposte",
+        "E": "Bladework",
+        "R": "Grand Challenge"
+    },
+    "Fizz": {
+        "Q": "Urchin Strike",
+        "W": "Seastone Trident",
+        "E": "Playful / Trickster",
+        "R": "Chum the Waters"
+    },
+    "Galio": {
+        "Q": "Winds of War",
+        "W": "Shield of Durand",
+        "E": "Justice Punch",
+        "R": "Hero's Entrance"
+    },
+    "Gangplank": {
+        "Q": "Parrrley",
+        "W": "Remove Scurvy",
+        "E": "Powder Keg",
+        "R": "Cannon Barrage"
+    },
+    "Garen": {
+        "Q": "Decisive Strike",
+        "W": "Courage",
+        "E": "Judgment",
+        "R": "Demacian Justice"
+    },
+    "Gnar": {
+        "Q": "Boomerang Throw / Boulder Toss",
+        "W": "Hyper / Wallop",
+        "E": "Hop / Crunch",
+        "R": "GNAR!"
+    },
+    "Gragas": {
+        "Q": "Barrel Roll",
+        "W": "Drunken Rage",
+        "E": "Body Slam",
+        "R": "Explosive Cask"
+    },
+    "Graves": {
+        "Q": "End of the Line",
+        "W": "Smoke Screen",
+        "E": "Move/Quickdraw",
+        "R": "ChargeShot/Collateral Damage"
+    },
+    "Hecarim": {
+        "Q": "RapidSlash/Rampage",
+        "W": "Spirit of Dread",
+        "E": "Ramp/Devastating Charge",
+        "R": "Onslaught of Shadows"
+    },
+    "Heimerdinger": {
+        "Q": "H-28 G Evolution Turret",
+        "W": "Hextech Micro-Rockets",
+        "E": "CH-2 Electron Storm Grenade",
+        "R": "UPGRADE!!!"
+    },
+    "Illaoi": {
+        "Q": "Tentacle Smash",
+        "W": "Harsh Lesson",
+        "E": "Test of Spirit",
+        "R": "Leap of Faith"
+    },
+    "Irelia": {
+        "Q": "Bladesurge",
+        "W": "Defiant Dance",
+        "E": "Flawless Duet",
+        "R": "Vanguard's Edge"
+    },
+    "Ivern": {
+        "Q": "Rootcaller",
+        "W": "Brushmaker",
+        "E": "Triggerseed",
+        "R": "Daisy!"
+    },
+    "Janna": {
+        "Q": "Howling Gale",
+        "W": "Zephyr",
+        "E": "Eye Of The Storm",
+        "R": "Monsoon"
+    },
+    "JarvanIV": {
+        "Q": "Dragon Strike",
+        "W": "Golden Aegis",
+        "E": "Demacian Standard",
+        "R": "Cataclysm"
+    },
+    "Jax": {
+        "Q": "Leap Strike",
+        "W": "EmpowerTwo/Empower",
+        "E": "Counter Strike",
+        "R": "RelentlessAssault/Grandmaster's Might"
+    },
+    "Jayce": {
+        "Q": "To the Skies! / Shock Blast",
+        "W": "StaticField/Lightning Field / Hyper Charge",
+        "E": "Thundering Blow / Acceleration Gate",
+        "R": "Mercury Cannon / Mercury Hammer"
+    },
+    "Jhin": {
+        "Q": "Dancing Grenade",
+        "W": "Deadly Flourish",
+        "E": "Captive Audience",
+        "R": "Curtain Call"
+    },
+    "Jinx": {
+        "Q": "Switcheroo!",
+        "W": "Zap!",
+        "E": "Flame Chompers!",
+        "R": "Super Mega Death Rocket!"
+    },
+    "Kaisa": {
+        "Q": "Icathian Rain",
+        "W": "Void Seeker",
+        "E": "Supercharge",
+        "R": "Killer Instinct"
+    },
+    "Kalista": {
+        "Q": "MysticShot/Pierce",
+        "W": "Sentinel",
+        "E": "Rend",
+        "R": "Fate's Call"
+    },
+    "Karma": {
+        "Q": "Inner Flame",
+        "W": "SpiritBind/Focused Resolve",
+        "E": "SolKimShield/Inspire",
+        "R": "Mantra"
+    },
+    "Karthus": {
+        "Q": "LayWasteA1/Lay Waste",
+        "W": "Wall of Pain",
+        "E": "Defile",
+        "R": "FallenOne/Requiem"
+    },
+    "Kassadin": {
+        "Q": "Null Sphere",
+        "W": "Nether Blade",
+        "E": "Force Pulse",
+        "R": "Riftwalk"
+    },
+    "Katarina": {
+        "Q": "Bouncing Blade",
+        "W": "Preparation",
+        "E": "Shunpo",
+        "R": "Death Lotus"
+    },
+    "Kayle": {
+        "Q": "Radiant Blast",
+        "W": "Celestial Blessing",
+        "E": "Starfire Spellblade",
+        "R": "Divine Judgment"
+    },
+    "Kayn": {
+        "Q": "Reaping Slash",
+        "W": "Blade's Reach",
+        "E": "Shadow Step",
+        "R": "Umbral Trespass"
+    },
+    "Kennen": {
+        "Q": "Thundering Shuriken",
+        "W": "BringTheLight/Electrical Surge",
+        "E": "Lightning Rush",
+        "R": "ShurikenStorm/Slicing Maelstrom"
+    },
+    "Khazix": {
+        "Q": "Taste Their Fear",
+        "W": "Void Spike",
+        "E": "Leap",
+        "R": "Void Assault"
+    },
+    "Kindred": {
+        "Q": "Dance of Arrows",
+        "W": "Wolf's Frenzy",
+        "E": "Mounting Dread",
+        "R": "Lamb's Respite"
+    },
+    "Kled": {
+        "Q": "Bear Trap on a Rope",
+        "W": "Violent Tendencies",
+        "E": "Jousting",
+        "R": "Chaaaaaaaarge!!!"
+    },
+    "KogMaw": {
+        "Q": "Caustic Spittle",
+        "W": "Bio-Arcane Barrage",
+        "E": "Void Ooze",
+        "R": "Living Artillery"
+    },
+    "Leblanc": {
+        "Q": "Sigil of Malice",
+        "W": "Distortion",
+        "E": "Ethereal Chains",
+        "R": "Mimic"
+    },
+    "LeeSin": {
+        "Q": "Sonic Wave / Resonating Strike",
+        "W": "Safeguard / Iron Will",
+        "E": "Tempest / Cripple",
+        "R": "Dragon's Rage"
+    },
+    "Leona": {
+        "Q": "Shield of Daybreak",
+        "W": "SolarBarrier/Eclipse",
+        "E": "Zenith Blade",
+        "R": "Solar Flare"
+    },
+    "Lissandra": {
+        "Q": "Ice Shard",
+        "W": "Ring of Frost",
+        "E": "Glacial Path",
+        "R": "Frozen Tomb"
+    },
+    "Lucian": {
+        "Q": "Piercing Light",
+        "W": "Ardent Blaze",
+        "E": "Relentless Pursuit",
+        "R": "The Culling"
+    },
+    "Lulu": {
+        "Q": "Glitterlance",
+        "W": "Whimsy",
+        "E": "Help, Pix!",
+        "R": "Wild Growth"
+    },
+    "Lux": {
+        "Q": "Light Binding",
+        "W": "Prismatic Barrier",
+        "E": "Lucent Singularity",
+        "R": "MaliceCannon/Final Spark"
+    },
+    "Malphite": {
+        "Q": "Seismic Shard",
+        "W": "Thunderclap",
+        "E": "Ground Slam",
+        "R": "Unstoppable Force"
+    },
+    "Malzahar": {
+        "Q": "Call of the Void",
+        "W": "Void Swarm",
+        "E": "Malefic Visions",
+        "R": "Nether Grasp"
+    },
+    "Maokai": {
+        "Q": "Bramble Smash",
+        "W": "Twisted Advance",
+        "E": "Sapling Toss",
+        "R": "Nature's Grasp"
+    },
+    "MasterYi": {
+        "Q": "Alpha Strike",
+        "W": "Meditate",
+        "E": "Wuju Style",
+        "R": "Highlander"
+    },
+    "MissFortune": {
+        "Q": "RicochetShot/Double Up",
+        "W": "ViciousStrikes/Strut",
+        "E": "Scattershot/Make It Rain",
+        "R": "Bullet Time"
+    },
+    "MonkeyKing": {
+        "Q": "DoubleAttack/Crushing Blow",
+        "W": "Decoy",
+        "E": "Nimbus Strike",
+        "R": "SpinToWin/Cyclone"
+    },
+    "Mordekaiser": {
+        "Q": "Obliterate",
+        "W": "Indestructible",
+        "E": "Death's Grasp",
+        "R": "Realm of Death"
+    },
+    "Morgana": {
+        "Q": "Dark Binding",
+        "W": "Tormented Shadow",
+        "E": "Black Shield",
+        "R": "Soul Shackles"
+    },
+    "Nami": {
+        "Q": "Aqua Prison",
+        "W": "Ebb and Flow",
+        "E": "Tidecaller's Blessing",
+        "R": "Tidal Wave"
+    },
+    "Nasus": {
+        "Q": "Siphoning Strike",
+        "W": "Wither",
+        "E": "Spirit Fire",
+        "R": "Fury of the Sands"
+    },
+    "Nautilus": {
+        "Q": "AnchorDrag/Dredge Line",
+        "W": "PiercingGaze/Titan's Wrath",
+        "E": "SplashZone/Riptide",
+        "R": "GrandLine/Depth Charge"
+    },
+    "Neeko": {
+        "Q": "Blooming Burst",
+        "W": "Shapesplitter",
+        "E": "Tangle-Barbs",
+        "R": "Pop Blossom"
+    },
+    "Nidalee": {
+        "Q": "Javelin Toss / Takedown",
+        "W": "Bushwhack / Pounce",
+        "E": "Primal Surge / Swipe",
+        "R": "Aspect Of The Cougar"
+    },
+    "Nocturne": {
+        "Q": "Duskbringer",
+        "W": "Shroud of Darkness",
+        "E": "Unspeakable Horror",
+        "R": "Paranoia"
+    },
+    "Nunu": {
+        "Q": "Consume",
+        "W": "Biggest Snowball Ever!",
+        "E": "Snowball Barrage",
+        "R": "Absolute Zero"
+    },
+    "Olaf": {
+        "Q": "AxeThrowCast/Undertow",
+        "W": "FrenziedStrikes/Vicious Strikes",
+        "E": "RecklessStrike/Reckless Swing",
+        "R": "Ragnarok"
+    },
+    "Orianna": {
+        "Q": "Command: Attack",
+        "W": "Command: Dissonance",
+        "E": "Command: Protect",
+        "R": "Command: Shockwave"
+    },
+    "Ornn": {
+        "Q": "Volcanic Rupture",
+        "W": "Bellows Breath",
+        "E": "Searing Charge",
+        "R": "Call of the Forge God"
+    },
+    "Pantheon": {
+        "Q": "Comet Spear",
+        "W": "Shield Vault",
+        "E": "Aegis Assault",
+        "R": "Grand Starfall"
+    },
+    "Poppy": {
+        "Q": "Hammer Shock",
+        "W": "Steadfast Presence",
+        "E": "Heroic Charge",
+        "R": "Keeper's Verdict"
+    },
+    "Pyke": {
+        "Q": "Bone Skewer",
+        "W": "Ghostwater Dive",
+        "E": "Phantom Undertow",
+        "R": "Death From Below"
+    },
+    "Qiyana": {
+        "Q": "Elemental Wrath / Edge of Ixtal",
+        "W": "Terrashape",
+        "E": "Audacity",
+        "R": "Supreme Display of Talent"
+    },
+    "Quinn": {
+        "Q": "Blinding Assault",
+        "W": "Heightened Senses",
+        "E": "Vault",
+        "R": "Behind Enemy Lines"
+    },
+    "Rakan": {
+        "Q": "Gleaming Quill",
+        "W": "Grand Entrance",
+        "E": "Battle Dance",
+        "R": "The Quickness"
+    },
+    "Rammus": {
+        "Q": "Powerball",
+        "W": "Defensive Ball Curl",
+        "E": "Frenzying Taunt",
+        "R": "Tremors"
+    },
+    "RekSai": {
+        "Q": "Queen's Wrath / Prey Seeker",
+        "W": "Burrow / Un-burrow",
+        "E": "Furious Bite / Tunnel",
+        "R": "Void Rush"
+    },
+    "Renekton": {
+        "Q": "Cleave/Cull the Meek",
+        "W": "PreExecute/Ruthless Predator",
+        "E": "Slice and Dice",
+        "R": "ReignOfTheTyrant/Dominus"
+    },
+    "Rengar": {
+        "Q": "Savagery",
+        "W": "Battle Roar",
+        "E": "Bola Strike",
+        "R": "Thrill of the Hunt"
+    },
+    "Riven": {
+        "Q": "TriCleave/Broken Wings",
+        "W": "Martyr/Ki Burst",
+        "E": "Feint/Valor",
+        "R": "FengShuiEngine/Blade of the Exile"
+    },
+    "Rumble": {
+        "Q": "FlameThrower/Flamespitter",
+        "W": "Scrap Shield",
+        "E": "Grenade/Electro Harpoon",
+        "R": "CarpetBomb/The Equalizer"
+    },
+    "Ryze": {
+        "Q": "Overload",
+        "W": "Rune Prison",
+        "E": "Spell Flux",
+        "R": "Realm Warp"
+    },
+    "Sejuani": {
+        "Q": "Arctic Assault",
+        "W": "Winter's Wrath",
+        "E": "Permafrost",
+        "R": "Glacial Prison"
+    },
+    "Senna": {
+        "Q": "Piercing Darkness",
+        "W": "Last Embrace",
+        "E": "Curse of the Black Mist",
+        "R": "Dawning Shadow"
+    },
+    "Shaco": {
+        "Q": "Deceive",
+        "W": "Jack In The Box",
+        "E": "Two-Shiv Poison",
+        "R": "Hallucinate"
+    },
+    "Shen": {
+        "Q": "Twilight Assault",
+        "W": "Spirit's Refuge",
+        "E": "Shadow Dash",
+        "R": "Stand United"
+    },
+    "Shyvana": {
+        "Q": "DoubleAttack/Twin Bite",
+        "W": "ImmolationAura/Burnout",
+        "E": "Fireball/Flame Breath",
+        "R": "TransformCast/Dragon's Descent"
+    },
+    "Singed": {
+        "Q": "Poison Trail",
+        "W": "Mega Adhesive",
+        "E": "Fling",
+        "R": "Insanity Potion"
+    },
+    "Sion": {
+        "Q": "Decimating Smash",
+        "W": "Soul Furnace",
+        "E": "Roar of the Slayer",
+        "R": "Unstoppable Onslaught"
+    },
+    "Sivir": {
+        "Q": "Boomerang Blade",
+        "W": "Ricochet",
+        "E": "Spell Shield",
+        "R": "On The Hunt"
+    },
+    "Skarner": {
+        "Q": "VirulentSlash/Crystal Slash",
+        "W": "Crystalline Exoskeleton",
+        "E": "Fracture",
+        "R": "Impale"
+    },
+    "Sona": {
+        "Q": "Hymn of Valor",
+        "W": "Aria of Perseverance",
+        "E": "Song of Celerity",
+        "R": "Crescendo"
+    },
+    "Soraka": {
+        "Q": "Starcall",
+        "W": "Astral Infusion",
+        "E": "Equinox",
+        "R": "Wish"
+    },
+    "Swain": {
+        "Q": "Death's Hand",
+        "W": "Vision of Empire",
+        "E": "Nevermove",
+        "R": "Demonic Ascension"
+    },
+    "Sylas": {
+        "Q": "Chain Lash",
+        "W": "Kingslayer",
+        "E": "Abscond / Abduct",
+        "R": "Hijack"
+    },
+    "Syndra": {
+        "Q": "Dark Sphere",
+        "W": "Force of Will",
+        "E": "Scatter the Weak",
+        "R": "Unleashed Power"
+    },
+    "TahmKench": {
+        "Q": "Tongue Lash",
+        "W": "Devour",
+        "E": "Thick Skin",
+        "R": "Abyssal Voyage"
+    },
+    "Taliyah": {
+        "Q": "Threaded Volley",
+        "W": "Seismic Shove",
+        "E": "Unraveled Earth",
+        "R": "Weaver's Wall"
+    },
+    "Talon": {
+        "Q": "Noxian Diplomacy",
+        "W": "Rake",
+        "E": "Assassin's Path",
+        "R": "Shadow Assault"
+    },
+    "Taric": {
+        "Q": "Starlight's Touch",
+        "W": "Bastion",
+        "E": "Dazzle",
+        "R": "Cosmic Radiance"
+    },
+    "Teemo": {
+        "Q": "Blinding Dart",
+        "W": "Move Quick",
+        "E": "Toxic Shot",
+        "R": "Noxious Trap"
+    },
+    "Thresh": {
+        "Q": "Death Sentence",
+        "W": "Dark Passage",
+        "E": "Flay",
+        "R": "The Box"
+    },
+    "Tristana": {
+        "Q": "Rapid Fire",
+        "W": "Rocket Jump",
+        "E": "Explosive Charge",
+        "R": "Buster Shot"
+    },
+    "Trundle": {
+        "Q": "TrollSmash/Chomp",
+        "W": "Frozen Domain",
+        "E": "Circle/Pillar of Ice",
+        "R": "Pain/Subjugate"
+    },
+    "Tryndamere": {
+        "Q": "Bloodlust",
+        "W": "Mocking Shout",
+        "E": "Spinning Slash",
+        "R": "Undying Rage"
+    },
+    "TwistedFate": {
+        "Q": "Wild Cards",
+        "W": "Pick a Card",
+        "E": "Stacked Deck",
+        "R": "Destiny"
+    },
+    "Twitch": {
+        "Q": "HideInShadows/Ambush",
+        "W": "Venom Cask",
+        "E": "Expunge/Contaminate",
+        "R": "FullAutomatic/Spray and Pray"
+    },
+    "Udyr": {
+        "Q": "Tiger Stance",
+        "W": "Turtle Stance",
+        "E": "Bear Stance",
+        "R": "Phoenix Stance"
+    },
+    "Urgot": {
+        "Q": "Corrosive Charge",
+        "W": "Purge",
+        "E": "Disdain",
+        "R": "Fear Beyond Death"
+    },
+    "Varus": {
+        "Q": "Piercing Arrow",
+        "W": "Blighted Quiver",
+        "E": "Hail of Arrows",
+        "R": "Chain of Corruption"
+    },
+    "Vayne": {
+        "Q": "Tumble",
+        "W": "Silver Bolts",
+        "E": "Condemn",
+        "R": "Inquisition/Final Hour"
+    },
+    "Veigar": {
+        "Q": "Baleful Strike",
+        "W": "Dark Matter",
+        "E": "Event Horizon",
+        "R": "Primordial Burst"
+    },
+    "Velkoz": {
+        "Q": "Plasma Fission",
+        "W": "Void Rift",
+        "E": "Tectonic Disruption",
+        "R": "Life Form Disintegration Ray"
+    },
+    "Vi": {
+        "Q": "Vault Breaker",
+        "W": "Denting Blows",
+        "E": "Excessive Force",
+        "R": "Assault and Battery"
+    },
+    "Viktor": {
+        "Q": "PowerTransfer/Siphon Power",
+        "W": "Gravity Field",
+        "E": "Death Ray",
+        "R": "Chaos Storm"
+    },
+    "Vladimir": {
+        "Q": "Transfusion",
+        "W": "Sanguine Pool",
+        "E": "Tides of Blood",
+        "R": "Hemoplague"
+    },
+    "Volibear": {
+        "Q": "Rolling Thunder",
+        "W": "Frenzy",
+        "E": "Majestic Roar",
+        "R": "Thunder Claws"
+    },
+    "Warwick": {
+        "Q": "Jaws of the Beast",
+        "W": "Blood Hunt",
+        "E": "Primal Howl",
+        "R": "Infinite Duress"
+    },
+    "Xayah": {
+        "Q": "Double Daggers",
+        "W": "Deadly Plumage",
+        "E": "Bladecaller",
+        "R": "Featherstorm"
+    },
+    "Xerath": {
+        "Q": "Arcanopulse",
+        "W": "Eye of Destruction",
+        "E": "MageSpear/Shocking Orb",
+        "R": "LocusOfPower2/Rite of the Arcane"
+    },
+    "XinZhao": {
+        "Q": "Three Talon Strike",
+        "W": "Wind Becomes Lightning",
+        "E": "Audacious Charge",
+        "R": "Crescent Guard"
+    },
+    "Yasuo": {
+        "Q": "Steel Tempest",
+        "W": "Wind Wall",
+        "E": "Sweeping Blade",
+        "R": "Last Breath"
+    },
+    "Yorick": {
+        "Q": "Last Rites",
+        "W": "Dark Procession",
+        "E": "Mourning Mist",
+        "R": "Eulogy of the Isles"
+    },
+    "Yuumi": {
+        "Q": "Prowling Projectile",
+        "W": "You and Me!",
+        "E": "Zoomies",
+        "R": "Final Chapter"
+    },
+    "Zac": {
+        "Q": "Stretching Strikes",
+        "W": "Unstable Matter",
+        "E": "Elastic Slingshot",
+        "R": "Let's Bounce!"
+    },
+    "Zed": {
+        "Q": "Razor Shuriken",
+        "W": "Living Shadow",
+        "E": "Shadow Slash",
+        "R": "Death Mark"
+    },
+    "Ziggs": {
+        "Q": "Bouncing Bomb",
+        "W": "Satchel Charge",
+        "E": "Hexplosive Minefield",
+        "R": "Mega Inferno Bomb"
+    },
+    "Zilean": {
+        "Q": "Time Bomb",
+        "W": "Rewind",
+        "E": "Time Warp",
+        "R": "Chronoshift"
+    },
+    "Zoe": {
+        "Q": "Paddle Star!",
+        "W": "Spell Thief",
+        "E": "Sleepy Trouble Bubble",
+        "R": "Portal Jump"
+    },
+    "Zyra": {
+        "Q": "Deadly Spines",
+        "W": "Rampant Growth",
+        "E": "Grasping Roots",
+        "R": "Stranglethorns"
+    }
+}
